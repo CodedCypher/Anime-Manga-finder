@@ -10,8 +10,8 @@ function classNames(...classes) {
 export function Navbar() {
 	let navigation = [
 		{ name: "Home", to: "/", current: false },
-		{ name: "Anime", to: "/anime", current: false },
-		{ name: "Manga", to: "/manga", current: false },
+		// { name: "Anime", to: "/anime", current: false },
+		{ name: "Mangas", to: "/manga", current: false },
 	];
 	return (
 		<Disclosure as="nav" className="bg-gray-800 ">

@@ -64,7 +64,7 @@ const AppProvider = ({ children }) => {
 					}
 				} else {
 					const response = await fetch(
-						`https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1`
+						`https://api.jikan.moe/v3/search/manga?q=&order_by=members&sort=desc&page=1`
 					);
 					const { results } = await response.json();
 					const animeList = results;

@@ -13,25 +13,23 @@ const Home = () => {
 				/>
 				<div className="text-center lg:w-2/3 w-full">
 					<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-						Microdosing synth tattooed vexillologist
+						Manga Finder
 					</h1>
 					<p className="leading-relaxed mb-8">
-						Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-						tousled. Chambray dreamcatcher trust fund, kitsch vice godard
-						disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
-						Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo
-						booth af fingerstache pitchfork.
+						Jikan API, the most comprehensive manga database, allows you to
+						search through tens of thousands of mangas. Find the manga that
+						you're looking for.
 					</p>
 					<div className="flex justify-center">
-						<Link
+						{/* <Link
 							to="/anime"
 							className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
 						>
 							Animes
-						</Link>
+						</Link> */}
 						<Link
 							to="/manga"
-							className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+							className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
 						>
 							Mangas
 						</Link>
