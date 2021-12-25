@@ -15,17 +15,9 @@ const MangaSearch = () => {
 			<section className="text-gray-400 bg-gray-900 body-font ">
 				<div className="container px-5 py-10 mx-auto">
 					<div className="flex flex-col text-center w-full mb-12">
-						<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+						<h1 className="sm:text-3xl text-2xl font-medium title-font text-white">
 							Manga Finder
 						</h1>
-						<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-							ipsa voluptate omnis molestias quasi dolorem voluptates atque
-							debitis pariatur aliquid magni rem ea, mollitia excepturi, quae
-							minima. Harum minus cumque officia nulla consequuntur, optio dolor
-							quasi quia ea sapiente laboriosam vero, recusandae porro facilis
-							deserunt ut. Magnam aliquid repellat totam!
-						</p>
 					</div>
 					<div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:px-0 items-end sm:space-x-4 sm:space-y-0 space-y-4">
 						<div className="relative sm:mb-0 flex-grow w-full">

@@ -16,9 +16,8 @@ const Home = () => {
 						Manga Finder
 					</h1>
 					<p className="leading-relaxed mb-8">
-						Jikan API, the most comprehensive manga database, allows you to
-						search through tens of thousands of mangas. Find the manga that
-						you're looking for.
+						This website is built using Jikan API, allows you to search through
+						tens of thousands of mangas. Find the manga that you're looking for.
 					</p>
 					<div className="flex justify-center">
 						{/* <Link
